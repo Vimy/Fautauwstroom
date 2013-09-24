@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "399B637617EC93B200EF2954"
                BuildableName = "Fautauwstroom"
-               BlueprintName = "Fautauwstroom"
-               ReferencedContainer = "container:Fautauwstroom.xcodeproj">
+               BlueprintName = "Fotoscan class"
+               ReferencedContainer = "container:Fotoscan class.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "399B637617EC93B200EF2954"
             BuildableName = "Fautauwstroom"
-            BlueprintName = "Fautauwstroom"
-            ReferencedContainer = "container:Fautauwstroom.xcodeproj">
+            BlueprintName = "Fotoscan class"
+            ReferencedContainer = "container:Fotoscan class.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -53,8 +53,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "399B637617EC93B200EF2954"
             BuildableName = "Fautauwstroom"
-            BlueprintName = "Fautauwstroom"
-            ReferencedContainer = "container:Fautauwstroom.xcodeproj">
+            BlueprintName = "Fotoscan class"
+            ReferencedContainer = "container:Fotoscan class.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "399B637617EC93B200EF2954"
             BuildableName = "Fautauwstroom"
-            BlueprintName = "Fautauwstroom"
-            ReferencedContainer = "container:Fautauwstroom.xcodeproj">
+            BlueprintName = "Fotoscan class"
+            ReferencedContainer = "container:Fotoscan class.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -57,6 +57,7 @@
     
     NSMutableArray *finalList = [[NSMutableArray alloc]init];
     NSCharacterSet *chs = [NSCharacterSet characterSetWithCharactersInString:@"\""];
+    
     for (int i = 0; i < [sortedFiles count]; i++)
     {
         NSString *kak = [[sortedFiles[i] valueForKey:@"path"] stringByTrimmingCharactersInSet:chs];

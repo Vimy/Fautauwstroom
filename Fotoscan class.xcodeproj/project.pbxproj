@@ -29,10 +29,10 @@
 /* Begin PBXFileReference section */
 		3948425517EE430000FF7C86 /* fotoScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fotoScan.h; sourceTree = "<group>"; };
 		3948425617EE430000FF7C86 /* fotoScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fotoScan.m; sourceTree = "<group>"; };
-		399B637717EC93B200EF2954 /* Fautauwstroom */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Fautauwstroom; sourceTree = BUILT_PRODUCTS_DIR; };
+		399B637717EC93B200EF2954 /* Fotoscan class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Fotoscan class"; sourceTree = BUILT_PRODUCTS_DIR; };
 		399B637A17EC93B200EF2954 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		399B637D17EC93B200EF2954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		399B638017EC93B200EF2954 /* Fautauwstroom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fautauwstroom-Prefix.pch"; sourceTree = "<group>"; };
+		399B638017EC93B200EF2954 /* Fotoscan class-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fotoscan class-Prefix.pch"; sourceTree = "<group>"; };
 		399B638117EC93B200EF2954 /* Fautauwstroom.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Fautauwstroom.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -51,7 +51,7 @@
 		399B636E17EC93B200EF2954 = {
 			isa = PBXGroup;
 			children = (
-				399B637C17EC93B200EF2954 /* Fautauwstroom */,
+				399B637C17EC93B200EF2954 /* FotoScan */,
 				399B637917EC93B200EF2954 /* Frameworks */,
 				399B637817EC93B200EF2954 /* Products */,
 			);
@@ -60,7 +60,7 @@
 		399B637817EC93B200EF2954 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				399B637717EC93B200EF2954 /* Fautauwstroom */,
+				399B637717EC93B200EF2954 /* Fotoscan class */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,7 +73,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		399B637C17EC93B200EF2954 /* Fautauwstroom */ = {
+		399B637C17EC93B200EF2954 /* FotoScan */ = {
 			isa = PBXGroup;
 			children = (
 				399B637D17EC93B200EF2954 /* main.m */,
@@ -82,13 +82,14 @@
 				399B638117EC93B200EF2954 /* Fautauwstroom.1 */,
 				399B637F17EC93B200EF2954 /* Supporting Files */,
 			);
+			name = FotoScan;
 			path = Fautauwstroom;
 			sourceTree = "<group>";
 		};
 		399B637F17EC93B200EF2954 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				399B638017EC93B200EF2954 /* Fautauwstroom-Prefix.pch */,
+				399B638017EC93B200EF2954 /* Fotoscan class-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -96,9 +97,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		399B637617EC93B200EF2954 /* Fautauwstroom */ = {
+		399B637617EC93B200EF2954 /* Fotoscan class */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 399B638517EC93B200EF2954 /* Build configuration list for PBXNativeTarget "Fautauwstroom" */;
+			buildConfigurationList = 399B638517EC93B200EF2954 /* Build configuration list for PBXNativeTarget "Fotoscan class" */;
 			buildPhases = (
 				399B637317EC93B200EF2954 /* Sources */,
 				399B637417EC93B200EF2954 /* Frameworks */,
@@ -108,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = Fautauwstroom;
+			name = "Fotoscan class";
 			productName = Fautauwstroom;
-			productReference = 399B637717EC93B200EF2954 /* Fautauwstroom */;
+			productReference = 399B637717EC93B200EF2954 /* Fotoscan class */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +123,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Matthias;
 			};
-			buildConfigurationList = 399B637217EC93B200EF2954 /* Build configuration list for PBXProject "Fautauwstroom" */;
+			buildConfigurationList = 399B637217EC93B200EF2954 /* Build configuration list for PBXProject "Fotoscan class" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -134,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				399B637617EC93B200EF2954 /* Fautauwstroom */,
+				399B637617EC93B200EF2954 /* Fotoscan class */,
 			);
 		};
 /* End PBXProject section */
@@ -224,8 +225,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fautauwstroom/Fautauwstroom-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Fautauwstroom/Fotoscan class-Prefix.pch";
+				PRODUCT_NAME = "Fotoscan class";
 			};
 			name = Debug;
 		};
@@ -233,15 +234,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Fautauwstroom/Fautauwstroom-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Fautauwstroom/Fotoscan class-Prefix.pch";
+				PRODUCT_NAME = "Fotoscan class";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		399B637217EC93B200EF2954 /* Build configuration list for PBXProject "Fautauwstroom" */ = {
+		399B637217EC93B200EF2954 /* Build configuration list for PBXProject "Fotoscan class" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				399B638317EC93B200EF2954 /* Debug */,
@@ -250,7 +251,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		399B638517EC93B200EF2954 /* Build configuration list for PBXNativeTarget "Fautauwstroom" */ = {
+		399B638517EC93B200EF2954 /* Build configuration list for PBXNativeTarget "Fotoscan class" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				399B638617EC93B200EF2954 /* Debug */,
