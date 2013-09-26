@@ -9,17 +9,40 @@
 #import "fotoScan.h"
 
 @implementation fotoScan
--(void)fotoScannen
 {
+    NSArray* sortedFiles;
+    NSMutableArray *imagesList;
+    int count;
+}
+
+
+
++ (fotoScan *)sharedfotoScan;
+{
+    static fotoScan *sharedfotoScan;
+    
+    @synchronized(self)
+    {
+        if (!sharedfotoScan)
+            sharedfotoScan = [[fotoScan alloc] init];
+        
+        return sharedfotoScan;
+    }
+}
+
+
+-(NSArray*)fotoScannen
+{
+    NSLog(@"Begin scannen!");
     NSString *docsDir = [NSHomeDirectory() stringByAppendingPathComponent:  @"Library/Application Support/iLifeAssetManagement/assets/sub/"];
     NSFileManager *localFileManager=[[NSFileManager alloc] init];
     NSDirectoryEnumerator *dirEnum =[localFileManager enumeratorAtPath:docsDir];
     
     NSError* error = nil;
     NSString *file;
+    count = 0;
+    imagesList = [[NSMutableArray alloc] init];
     
-    NSMutableArray *imagesList = [[NSMutableArray alloc] init];
-    int count = 0;
     while ((file = [dirEnum nextObject]))
     {
         if ([[file pathExtension] isEqualToString: @"JPG"])
@@ -38,8 +61,14 @@
         }
         
     }
+    NSLog(@"%@", imagesList);
+    return imagesList;
     
-    NSArray* sortedFiles = [imagesList sortedArrayUsingComparator:^(id path1, id path2)
+}
+
+-(NSArray*)fotoLijst
+{
+     sortedFiles = [imagesList sortedArrayUsingComparator:^(id path1, id path2)
                             {
                                 // compare
                                 NSComparisonResult comp = [[path1 objectForKey:@"lastModDate"] compare:[path2 objectForKey:@"lastModDate"]];
@@ -69,6 +98,13 @@
     NSLog(@"%@",[sortedFiles valueForKey:@"path"]);
     NSLog(@"%i", count);
     
+    return sortedFiles;
+    
+    
+    
 }
+
+    
+
 
 @end

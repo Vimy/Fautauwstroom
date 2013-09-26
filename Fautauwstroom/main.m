@@ -16,6 +16,7 @@ int main(int argc, const char * argv[])
     {
         fotoScan *scanner = [[fotoScan alloc]init];
         [scanner fotoScannen];
+        [scanner fotoLijst];
         return 0;
    }
 

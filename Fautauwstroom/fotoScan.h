@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface fotoScan : NSObject
--(void)fotoScannen;
++ (fotoScan *)sharedfotoScan;
+
+-(NSArray*)fotoScannen;
+-(NSArray*)fotoLijst;
 @end
