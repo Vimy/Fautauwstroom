@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>657312D6-F93A-4A16-8A35-024784D0497B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Fotoscan class</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>864783F5-B2A2-4B50-BD97-CEF6C1231EFB</key>
+		<string>https://github.com/Vimy/Fautauwstroom.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Fotoscan class.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>864783F5-B2A2-4B50-BD97-CEF6C1231EFB</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Vimy/Fautauwstroom.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>864783F5-B2A2-4B50-BD97-CEF6C1231EFB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>864783F5-B2A2-4B50-BD97-CEF6C1231EFB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Fautauwstroom</string>
+		</dict>
+	</array>
+</dict>
+</plist>

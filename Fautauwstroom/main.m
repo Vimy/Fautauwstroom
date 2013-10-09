@@ -16,7 +16,17 @@ int main(int argc, const char * argv[])
     {
         fotoScan *scanner = [[fotoScan alloc]init];
         [scanner fotoScannen];
-        [scanner fotoLijst];
+        //[scanner fotoLijst];
+        NSArray *tiet = [scanner fotoLijst];
+        int x = [tiet count];
+        for (int i=0; i < x; i++)
+        {
+                //NSLog(@"Tiet: %i %@",i, [tiet[i] valueForKey:@"path"]);
+            NSLog(@"Tiet: %i %@",i, tiet[i]);
+
+        }
+      
+        
         return 0;
    }
 

@@ -61,7 +61,7 @@
         }
         
     }
-    NSLog(@"%@", imagesList);
+  //  NSLog(@"%@", imagesList);
     return imagesList;
     
 }
@@ -90,15 +90,15 @@
     for (int i = 0; i < [sortedFiles count]; i++)
     {
         NSString *kak = [[sortedFiles[i] valueForKey:@"path"] stringByTrimmingCharactersInSet:chs];
-        NSLog(@"%@", kak);
+      //  NSLog(@"%@", kak);
         [finalList addObject:kak];
         
     }
     
-    NSLog(@"%@",[sortedFiles valueForKey:@"path"]);
+   // NSLog(@"%@",[sortedFiles valueForKey:@"path"]);
     NSLog(@"%i", count);
-    
-    return sortedFiles;
+    return finalList;
+  //  return sortedFiles;
     
     
     

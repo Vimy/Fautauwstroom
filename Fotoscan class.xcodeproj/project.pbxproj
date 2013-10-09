@@ -11,6 +11,7 @@
 		399B637B17EC93B200EF2954 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 399B637A17EC93B200EF2954 /* Foundation.framework */; };
 		399B637E17EC93B200EF2954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 399B637D17EC93B200EF2954 /* main.m */; };
 		399B638217EC93B200EF2954 /* Fautauwstroom.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 399B638117EC93B200EF2954 /* Fautauwstroom.1 */; };
+		39DDD34D1805F71800B3A857 /* FotoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DDD34C1805F71800B3A857 /* FotoObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		399B637D17EC93B200EF2954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		399B638017EC93B200EF2954 /* Fotoscan class-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fotoscan class-Prefix.pch"; sourceTree = "<group>"; };
 		399B638117EC93B200EF2954 /* Fautauwstroom.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Fautauwstroom.1; sourceTree = "<group>"; };
+		39DDD34B1805F71800B3A857 /* FotoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FotoObject.h; sourceTree = "<group>"; };
+		39DDD34C1805F71800B3A857 /* FotoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FotoObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				399B637D17EC93B200EF2954 /* main.m */,
 				3948425517EE430000FF7C86 /* fotoScan.h */,
 				3948425617EE430000FF7C86 /* fotoScan.m */,
+				39DDD34B1805F71800B3A857 /* FotoObject.h */,
+				39DDD34C1805F71800B3A857 /* FotoObject.m */,
 				399B638117EC93B200EF2954 /* Fautauwstroom.1 */,
 				399B637F17EC93B200EF2954 /* Supporting Files */,
 			);
@@ -147,6 +152,7 @@
 			files = (
 				3948425717EE430000FF7C86 /* fotoScan.m in Sources */,
 				399B637E17EC93B200EF2954 /* main.m in Sources */,
+				39DDD34D1805F71800B3A857 /* FotoObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
